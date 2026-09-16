@@ -1,0 +1,200 @@
+
+header{
+    background-color: black;
+    font-size: 1rem;
+    height: auto;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    font-size: 1.5rem;
+    font-family:Georgia, serif;
+    color:white;
+}
+
+h5 { 
+    font-size: 1rem;
+    font-family: Georgia, serif;
+    
+
+}
+
+
+.logo { width: 100px;
+    height: 50px;
+
+    }
+
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    color:White;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid blue;
+    h2{
+        border: 1px solid red;
+    }
+}
+
+a {
+    color:white;
+}
+
+ul{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    border: 1px solid green;
+    border-radius: 2px;
+    
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+    color:white;
+    text-align: center;
+}
+
+#descripcion {
+    color:white;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+#contacto {
+    color: white;
+    font-family: cursive;
+    
+    
+}
+.botones-contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+
+#botones{
+  color: seagreen;
+  margin: 1px;
+   
+}
+.imagen-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width:  100%;
+  border: 1px solid red;
+  border-radius: 20px;
+}
+
+
+
+
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 0;
+    gap: 1rem;
+    padding:0rem;
+    width: 80%;
+    
+}
+
+.card {
+    color: white;
+    width: 100%;
+    padding: 1.5rem;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#ubi {
+    color: white;
+}
+
+.testimonios-contenedor {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    width: 50%;
+    height: 50%;
+   
+
+
+}
+
+/* MEDIA QUERIES RESPONSIVE DESIGN */
+
+
+/* TABLET */
+
+@media (min-width: 768px)
+{
+    nav{
+        flex-direction: row;
+        
+    }
+    ul {
+        flex-direction: row;
+    }
+
+    .testimonios-contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 50%;
+
+    }
+
+    .botones-contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+ 
+} 
+    .productos{
+        display: flex;
+        color: white;
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0rem;
+        height: 50%;
+        width: 100%;
+    }
+
+   }
+
+
+
+
+/* DESKTOP */
+@media (min-width: 1024px){
+
+    ul {
+        flex-direction: row;
+    }
+}
