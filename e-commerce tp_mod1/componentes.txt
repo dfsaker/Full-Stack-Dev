@@ -1,0 +1,17 @@
+formulario
+
+https://bootstrapbrain.com/component/bootstrap-contact-us-with-multiple-contact-methods-phone-email-address/#code
+
+
+footer
+
+https://bootstrapexamples.com/@prajwal/footer
+
+
+cards
+
+https://getbootstrap.esdocu.com/docs/5.1/components/card/#sizing
+
+https://freefrontend.com/bootstrap-product-cards/
+
+https://freefrontend.com/css-product-cards/
